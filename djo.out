@@ -1,0 +1,615 @@
+nohup: ignoring input
+Watching for file changes with StatReloader
+[04/Apr/2020 11:43:24] "GET / HTTP/1.1" 200 16351
+[04/Apr/2020 11:43:24] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[04/Apr/2020 11:43:24] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[04/Apr/2020 11:43:24] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[04/Apr/2020 11:43:35] "GET /admin HTTP/1.1" 301 0
+[04/Apr/2020 11:43:35] "GET /admin/ HTTP/1.1" 302 0
+[04/Apr/2020 11:43:35] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[04/Apr/2020 11:43:35] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[04/Apr/2020 11:43:35] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[04/Apr/2020 11:43:35] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+[04/Apr/2020 11:43:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[04/Apr/2020 11:43:45] "GET /admin/ HTTP/1.1" 200 3041
+[04/Apr/2020 11:43:46] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[04/Apr/2020 11:43:46] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[04/Apr/2020 11:43:46] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[04/Apr/2020 11:43:46] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+/usr/local/src/surveySystem/web/admin.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 04, 2020 - 11:40:58
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[04/Apr/2020 11:46:10] "GET /admin/ HTTP/1.1" 200 4135
+[04/Apr/2020 11:46:31] "GET /admin/web/classlist/add/ HTTP/1.1" 200 3986
+[04/Apr/2020 11:46:31] "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[04/Apr/2020 11:46:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 11:46:31] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[04/Apr/2020 11:46:31] "GET /static/admin/js/core.js HTTP/1.1" 200 5723
+[04/Apr/2020 11:46:31] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+[04/Apr/2020 11:46:31] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[04/Apr/2020 11:46:31] "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[04/Apr/2020 11:46:31] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[04/Apr/2020 11:46:31] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[04/Apr/2020 11:46:31] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[04/Apr/2020 11:46:32] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[04/Apr/2020 11:46:33] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[04/Apr/2020 11:46:54] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+[04/Apr/2020 11:47:29] "POST /admin/web/classlist/add/ HTTP/1.1" 302 0
+[04/Apr/2020 11:48:03] "GET /admin/web/classlist/add/ HTTP/1.1" 200 4226
+[04/Apr/2020 11:48:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 11:48:03] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[04/Apr/2020 11:48:40] "POST /admin/web/classlist/add/ HTTP/1.1" 200 4129
+[04/Apr/2020 11:48:40] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 11:48:45] "GET /admin/web/classlist/ HTTP/1.1" 200 4365
+[04/Apr/2020 11:48:45] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6190
+[04/Apr/2020 11:48:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 11:48:46] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[04/Apr/2020 11:48:47] "GET /admin/web/classlist/1/change/ HTTP/1.1" 200 4220
+[04/Apr/2020 11:48:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 11:48:50] "GET /admin/web/classlist/ HTTP/1.1" 200 4365
+[04/Apr/2020 11:48:52] "GET /admin/web/ HTTP/1.1" 200 2844
+[04/Apr/2020 11:48:55] "GET /admin/web/survey/add/ HTTP/1.1" 200 6309
+[04/Apr/2020 11:48:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 11:50:26] "POST /admin/web/survey/add/ HTTP/1.1" 200 6473
+[04/Apr/2020 11:50:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+/usr/local/src/surveySystem/web/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 04, 2020 - 11:46:01
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[04/Apr/2020 11:51:06] "POST /admin/web/survey/add/ HTTP/1.1" 302 0
+[04/Apr/2020 11:51:07] "GET /admin/web/survey/ HTTP/1.1" 200 4517
+[04/Apr/2020 11:51:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 11:51:07] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[04/Apr/2020 11:58:11] "GET /admin/web/survey/add/ HTTP/1.1" 200 6283
+[04/Apr/2020 11:58:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 11:58:11] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+[04/Apr/2020 11:58:11] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[04/Apr/2020 11:58:11] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[04/Apr/2020 11:59:05] "GET /admin/web/survey/ HTTP/1.1" 200 4325
+[04/Apr/2020 11:59:06] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[04/Apr/2020 11:59:06] "GET /static/admin/js/core.js HTTP/1.1" 200 5723
+[04/Apr/2020 11:59:06] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[04/Apr/2020 11:59:06] "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[04/Apr/2020 11:59:06] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[04/Apr/2020 11:59:06] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[04/Apr/2020 11:59:07] "GET /admin/web/survey/add/ HTTP/1.1" 200 6283
+[04/Apr/2020 11:59:07] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[04/Apr/2020 11:59:07] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+[04/Apr/2020 11:59:07] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[04/Apr/2020 11:59:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[04/Apr/2020 11:59:08] "GET /admin/web/ HTTP/1.1" 200 2844
+[04/Apr/2020 11:59:10] "GET /admin/web/ HTTP/1.1" 200 2844
+[04/Apr/2020 11:59:12] "GET /admin/web/ HTTP/1.1" 200 2844
+[04/Apr/2020 11:59:12] "GET /admin/web/ HTTP/1.1" 200 2844
+[04/Apr/2020 11:59:13] "GET /admin/web/ HTTP/1.1" 200 2844
+[04/Apr/2020 11:59:25] "GET /admin/web/survey/add/ HTTP/1.1" 200 6283
+[04/Apr/2020 11:59:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 11:59:26] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[04/Apr/2020 11:59:40] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+[04/Apr/2020 11:59:53] "POST /admin/web/survey/add/ HTTP/1.1" 302 0
+[04/Apr/2020 11:59:53] "GET /admin/web/survey/ HTTP/1.1" 200 4745
+[04/Apr/2020 11:59:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Apr/2020 18:23:11] "GET / HTTP/1.0" 200 16351
+[05/Apr/2020 02:01:53] "POST /admin/web/survey/ HTTP/1.1" 302 0
+[05/Apr/2020 02:01:53] "GET /admin/web/survey/ HTTP/1.1" 200 4732
+[05/Apr/2020 02:01:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 02:01:53] "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+[05/Apr/2020 02:02:15] "GET /admin/web/ HTTP/1.1" 200 2844
+[05/Apr/2020 02:02:15] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[05/Apr/2020 02:02:36] "GET /admin/web/survey/add/ HTTP/1.1" 200 6283
+[05/Apr/2020 02:02:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 02:05:35] "POST /admin/web/survey/add/ HTTP/1.1" 302 0
+[05/Apr/2020 02:05:35] "GET /admin/web/survey/ HTTP/1.1" 200 4972
+[05/Apr/2020 02:05:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+/usr/local/src/surveySystem/surveySystem/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 04, 2020 - 11:50:55
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/root/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/config.py", line 90, in create
+    module = import_module(entry)
+  File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/src/surveySystem/web/apps.py", line 7
+    def readY(self):
+                   ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+/usr/local/src/surveySystem/web/apps.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/root/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/config.py", line 90, in create
+    module = import_module(entry)
+  File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/src/surveySystem/web/apps.py", line 7
+    def ready(self):
+                   ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+/usr/local/src/surveySystem/web/apps.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/root/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/config.py", line 90, in create
+    module = import_module(entry)
+  File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/src/surveySystem/web/apps.py", line 7
+    def ready(self):
+                   ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+/usr/local/src/surveySystem/web/apps.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/root/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/config.py", line 90, in create
+    module = import_module(entry)
+  File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/src/surveySystem/web/apps.py", line 9
+    def ready(self):
+                   ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+/usr/local/src/surveySystem/web/apps.py changed, reloading.
+Watching for file changes with StatReloader
+[05/Apr/2020 03:10:50] "GET /admin/web/ HTTP/1.1" 200 2844
+[05/Apr/2020 03:10:51] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[05/Apr/2020 03:10:58] "GET /admin/web/survey/add/ HTTP/1.1" 200 6283
+[05/Apr/2020 03:10:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 03:11:07] "POST /admin/web/survey/add/ HTTP/1.1" 302 0
+[05/Apr/2020 03:11:07] "GET /admin/web/survey/ HTTP/1.1" 200 5199
+[05/Apr/2020 03:11:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+/usr/local/src/surveySystem/web/apps.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 03:10:36
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+{'signal': <django.db.models.signals.ModelSignal object at 0x7efcdf539cd0>, 'sender': <class 'web.models.Survey'>, 'instance': <Survey: Survey object (4)>, 'created': True, 'update_fields': None, 'raw': False, 'using': 'default'}
+Watching for file changes with StatReloader
+/usr/local/src/surveySystem/web/apps.py changed, reloading.
+11111
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 03:14:41
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/usr/local/src/surveySystem/web/signals/web.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 03:16:22
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[05/Apr/2020 03:20:04] "GET /admin/web/survey/4/change/ HTTP/1.1" 200 6520
+[05/Apr/2020 03:20:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 03:20:16] "POST /admin/web/survey/4/change/ HTTP/1.1" 302 0
+[05/Apr/2020 03:20:16] "GET /admin/web/survey/ HTTP/1.1" 200 5201
+[05/Apr/2020 03:20:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 03:20:33] "GET /admin/web/survey/add/ HTTP/1.1" 200 6283
+[05/Apr/2020 03:20:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 03:20:45] "POST /admin/web/survey/add/ HTTP/1.1" 302 0
+[05/Apr/2020 03:20:45] "GET /admin/web/survey/ HTTP/1.1" 200 5426
+[05/Apr/2020 03:20:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+/usr/local/src/surveySystem/web/signals/web.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 03:19:55
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+接收信号
+{'signal': <django.db.models.signals.ModelSignal object at 0x7f8a9dfdad10>, 'sender': <class 'web.models.Survey'>, 'instance': <Survey: Survey object (4)>, 'created': False, 'update_fields': None, 'raw': False, 'using': 'default'}
+接收信号
+{'signal': <django.db.models.signals.ModelSignal object at 0x7f8a9dfdad10>, 'sender': <class 'web.models.Survey'>, 'instance': <Survey: Survey object (5)>, 'created': True, 'update_fields': None, 'raw': False, 'using': 'default'}
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/root/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/registry.py", line 122, in populate
+    app_config.ready()
+  File "/usr/local/src/surveySystem/web/apps.py", line 9, in ready
+    import_module("web.signals.web")
+  File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/src/surveySystem/web/signals/web.py", line 1
+    999999999from django.dispatch import receiver
+                ^
+SyntaxError: invalid syntax
+
+/usr/local/src/surveySystem/web/signals/web.py changed, reloading.
+Watching for file changes with StatReloader
+[05/Apr/2020 03:27:22] "GET /admin/web/ HTTP/1.1" 200 2844
+[05/Apr/2020 03:27:33] "GET /admin/web/classlist/add/ HTTP/1.1" 200 3986
+[05/Apr/2020 03:27:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 03:27:45] "POST /admin/web/classlist/add/ HTTP/1.1" 302 0
+[05/Apr/2020 03:27:45] "GET /admin/web/classlist/ HTTP/1.1" 200 4801
+[05/Apr/2020 03:27:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 03:28:42] "GET /admin/web/ HTTP/1.1" 200 2844
+[05/Apr/2020 03:28:47] "GET /admin/web/survey/add/ HTTP/1.1" 200 6334
+[05/Apr/2020 03:28:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 03:30:31] "POST /admin/web/survey/add/ HTTP/1.1" 302 0
+[05/Apr/2020 03:30:31] "GET /admin/web/survey/ HTTP/1.1" 200 5653
+[05/Apr/2020 03:30:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 04:01:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[05/Apr/2020 04:01:12] "  /*à     Cookie: mstshash=Administr" 400 -
+[05/Apr/2020 04:24:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[05/Apr/2020 04:24:52] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.qq.com/404/search_children.js
+[05/Apr/2020 06:11:00] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1727
+----------------------------------------
+Exception happened during processing of request from ('120.132.3.65', 33774)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[05/Apr/2020 06:11:05] code 400, message Bad request syntax ('\x05\x01\x00')
+[05/Apr/2020 06:11:05] " " 400 -
+[05/Apr/2020 06:11:05] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x03ÿÿ\x00\x01local\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00cananian\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[05/Apr/2020 06:11:05] "  +<M            ÿÿ local                                                           cananian                                                        " 400 -
+[05/Apr/2020 06:11:06] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[05/Apr/2020 06:11:06] " PpTi4 " 400 -
+/usr/local/src/surveySystem/web/models.py changed, reloading.
+信号
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 03:26:48
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+接收信号
+{'signal': <django.db.models.signals.ModelSignal object at 0x7f4736f25c50>, 'sender': <class 'web.models.Survey'>, 'instance': <Survey: Survey object (6)>, 'created': True, 'update_fields': None, 'raw': False, 'using': 'default'}
+Watching for file changes with StatReloader
+/usr/local/src/surveySystem/web/signals/web.py changed, reloading.
+信号
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 08:14:12
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/root/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/registry.py", line 122, in populate
+    app_config.ready()
+  File "/usr/local/src/surveySystem/web/apps.py", line 9, in ready
+    import_module("web.signals.web")
+  File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/src/surveySystem/web/signals/web.py", line 13, in <module>
+    m2m_changed.connect(toppings_changed, sender=Pizza.toppings.through)
+NameError: name 'Pizza' is not defined
+
+/usr/local/src/surveySystem/web/signals/web.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/root/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/registry.py", line 122, in populate
+    app_config.ready()
+  File "/usr/local/src/surveySystem/web/apps.py", line 9, in ready
+    import_module("web.signals.web")
+  File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/src/surveySystem/web/signals/web.py", line 12, in <module>
+    m2m_changed.connect(toppings_changed, sender=Pizza.toppings.through)
+NameError: name 'Pizza' is not defined
+
+/usr/local/src/surveySystem/web/signals/web.py changed, reloading.
+Watching for file changes with StatReloader
+/usr/local/src/surveySystem/web/signals/web.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 08:16:50
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/root/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/root/anaconda3/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/root/anaconda3/lib/python3.7/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/root/anaconda3/lib/python3.7/site-packages/django/apps/registry.py", line 122, in populate
+    app_config.ready()
+  File "/usr/local/src/surveySystem/web/apps.py", line 9, in ready
+    import_module("web.signals.web")
+  File "/root/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/src/surveySystem/web/signals/web.py", line 11, in <module>
+    post_save.connect(create_unique_code, sender = models.Survey.count.through)
+AttributeError: 'DeferredAttribute' object has no attribute 'through'
+
+/usr/local/src/surveySystem/web/signals/web.py changed, reloading.
+Watching for file changes with StatReloader
+/usr/local/src/surveySystem/web/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 08:30:01
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/usr/local/src/surveySystem/web/signals/web.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 08:44:24
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/usr/local/src/surveySystem/web/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 08:44:36
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/usr/local/src/surveySystem/web/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2020 - 08:46:02
+Django version 3.0.4, using settings 'surveySystem.settings'
+Starting development server at http://0.0.0.0:7777/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[05/Apr/2020 08:49:59] "GET /admin/web/ HTTP/1.1" 200 2844
+[05/Apr/2020 08:50:01] "GET /admin/web/survey/add/ HTTP/1.1" 200 6334
+[05/Apr/2020 08:50:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Apr/2020 08:50:15] "POST /admin/web/survey/add/ HTTP/1.1" 302 0
+[05/Apr/2020 08:50:16] "GET /admin/web/survey/ HTTP/1.1" 200 6107
+[05/Apr/2020 08:50:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
