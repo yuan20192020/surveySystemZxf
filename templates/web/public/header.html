@@ -2,30 +2,45 @@
 {% block page-header%}
 <div id="navmenu" class="row container">
 	<el-menu  class="el-menu-demo" mode="horizontal" >
-		  <el-menu-item index="1">文件</el-menu-item>
-		    <el-submenu index="2">
-			        <template slot="title">试模约机</template>
-				    <el-menu-item index="2-1">约机信息录入</el-menu-item>
-				        <el-menu-item index="2-2">约机计划制定</el-menu-item>
-										        <el-menu-item index="3">试模查看</el-menu-item>
-											  <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">用户管理</a></el-menu-item>
+		<el-submenu index="1">
+				<template slot="title">文件</template>
+				<el-menu-item index="1-1">新建工程</el-menu-item>
+				<el-menu-item index="1-2">打开工程</el-menu-item>
+				<el-menu-item index="1-3">保存工程</el-menu-item>
+				<el-menu-item index="1-4">关闭工程</el-menu-item>
+				<el-menu-item index="1-5">设置</el-menu-item>
+		</el-submenu>
+		<el-submenu index="2"><template slot="title">试模约机</template>
+				<el-menu-item index="2-1">约机信息录入</el-menu-item>
+				<el-menu-item index="2-2">约机计划制定</el-menu-item>
+		</el-submenu>
+		<el-submenu index="3">
+				<template slot="title">试模查看</template>
+				<el-menu-item index="1-1">约机记录查看</el-menu-item>
+				<el-menu-item index="1-2">试模信息查看</el-menu-item>
+		</el-submenu>
+		<el-submenu index="4">
+				<template slot="title">帮助</template>
+				<el-menu-item index="1-1">帮助文档</el-menu-item>
+				<el-menu-item index="1-2">SQL控制台</el-menu-item>
+		</el-submenu>
 	</el-menu>
 	{% endblock%}
 
 	{% block js%}
 	<script>
-		  var navmenu = new Vue ({
-			  el:"#navmenu",
-			      data: {
-						            activeIndex: '1',
-						            activeIndex2: '1'
-				          },
-			      methods: {
-				            handleSelect(key, keyPath) {
-						            console.log(key, keyPath);
-						          }
-				          }
-			    });
+		var navmenu = new Vue ({
+			el:"#navmenu",
+			    data: {
+					activeIndex: '1',
+					activeIndex2: '1'
+				      },
+			    methods: {
+				    handleSelect(key, keyPath) {
+					console.log(key, keyPath);
+						 }
+				        }
+		});
 	</script>
 
 </div>
