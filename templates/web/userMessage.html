@@ -1,0 +1,70 @@
+{% extends 'web/public/header.html'%}
+{% block page-content%}
+<div class="row container">
+ <div class="col-md-3">
+  <input type="text" class="form-control" v-model="search">
+ </div>
+  <button class="btn btn-class" @click="initData()">查询</button>
+</div>
+<hr>
+<template>
+  <el-table
+    :data="tableData"
+    stripe
+    style="width: 100%">
+	<el-table-column v-for="item, index in tableColumn"
+		:prop="item.prop"
+		:label="item.label">
+		<template slot-scope="data">
+			<div v-html="data.row[item.prop]"></div>
+		</template>
+    </el-table-column>
+ </el-table>
+</template>
+<hr>
+<el-pagination
+  background
+  layout="prev, pager, next"
+  :total="total" :page-size="limit" @current-change="changePage">
+</el-pagination>
+
+{% endblock%}
+
+{% block js%}
+<script>
+var vm =new Vue({
+	el:"#app",
+	data:{
+		search:'',
+		tableColumn:[
+	
+		],
+		tableData: [],
+		total: 0,
+		limit:9,
+		offset:0
+	},
+	mounted(){
+		this.initData()
+	},
+	methods:{
+		initData(){
+			let vm = this;
+			axios.get(`/api/surveys/?search=${vm.search}&limit=${vm.limit}&offset=${vm.offset}`).then(
+					function(response){
+					//console.log(response.data.data.table_data)
+					vm.total= response.data.data.table_data.total
+					vm.tableData = response.data.data.table_data.data
+					vm.tableColumn = response.data.data.table_column
+				}
+			)
+		},
+		changePage(page){
+			this.offset = (page - 1) * this.limit
+			this.initData()
+		}
+
+	}
+})
+</script>
+{% endblock%}
