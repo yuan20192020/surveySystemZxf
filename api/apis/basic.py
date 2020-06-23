@@ -26,7 +26,7 @@ class SurveysApi(ListAPIView):
 	#分页
 	pagination_class = pagination.LimitOffsetPagination
 
-	table_column = [{"prop":'grade',"label":'班级'},{"prop":'times',"label":'第几次'},{"prop":'valid_count',"label":'填写次数'},{"prop":'handle_link',"label":'填写链接'},{"prop":'date',"label":'日期'},{"prop":'handle',"label":'操作'}]
+	table_column = [{"prop":'grade',"label":'记录状态'},{"prop":'times',"label":'试模日期'},{"prop":'valid_count',"label":'机型'},{"prop":'handle_link',"label":'模号'},{"prop":'date',"label":'部门'},{"prop":'handle',"label":'模具类别'}]
 
 	def get_paginated_response(self, data):
 		return Response({

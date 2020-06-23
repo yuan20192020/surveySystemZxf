@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'surveySystem.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST':'47.114.4.24',
+        'PORT':3306,
+        'USER':'hsmolding',
+        'PASSWORD':'87543492',
+        'NAME': 'moldingdatabase',
     }
 }
 
